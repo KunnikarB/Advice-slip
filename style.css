@@ -11,7 +11,7 @@ body {
     background-color: hsl(218, 23%, 16%);
     text-align: center;
     font-size: 28px;
-    margin: 30vh auto;
+    margin: 25vh auto;
 }
 
 .container {
@@ -34,7 +34,7 @@ body {
     border-radius: 10px;
     padding: 40px;
     width: 350px;
-    height: 400px;
+    height: 350px;
     width: 100%;
     color: hsl(193, 38%, 86%);
 }
@@ -61,8 +61,8 @@ body {
 
 #getData {
     display: block;
-    width: 80px;
-    height: 80px;
+    width: 60px;
+    height: 60px;
     padding-top: 15px 5px 0px 5px; 
     margin: 0 auto;
     background-color: hsl(150, 100%, 66%);
@@ -83,7 +83,7 @@ body {
 }
 
 #getData img {
-    width: 40%;
+    width: 30%;
 }
 
 .attribution {
@@ -114,19 +114,16 @@ body {
   .container {
     width: 90%;
   }
+
+  .advice-card {
+    width: 330px;
+    height: 300px;
+  }
+
   #results {
     font-size: 1.2rem;
   }
 
-  .advice-card {
-    width: 350px;
-    height: 350px;
-  }
-
-  #getData {
-    width: 60px;
-    height: 60px;
-  }
 
   .attribution p {
     font-size: 0.7rem;
