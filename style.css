@@ -104,6 +104,9 @@ body {
     bottom: 38%;
     left: 46%;
   }
+  #results {
+    font-size: 1.2rem;
+  }
 }
 
 @media screen and (max-width: 375px) {
