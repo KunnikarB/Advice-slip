@@ -11,6 +11,7 @@ body {
     background-color: hsl(218, 23%, 16%);
     text-align: center;
     font-size: 28px;
+    margin: 30vh auto;
 }
 
 .container {
@@ -55,21 +56,25 @@ body {
 
 .line img {
   width: 80%;
-  margin: 1.5rem;  
+  margin: 1rem;  
 }
 
 #getData {
+    display: block;
+    width: 100px;
+    height: 100px;
+    padding-top: 15px 5px 0px 5px; 
+    margin: 0 auto;
     background-color: hsl(150, 100%, 66%);
     border: none;
     border-radius: 50%;
-    padding: 20px;
     cursor: pointer;
     transition: background-color 0.3s ease;
     position: absolute;
-    bottom: 38%;
-    left: 48%;
+    bottom: -10%;
+    left: 50%;
     z-index: 1;
-    transform: translateY(50%);
+    transform: translateX(-50%);
     transition: all 0.2s;
 }
 
@@ -78,7 +83,7 @@ body {
 }
 
 #getData img {
-    width: 100%;
+    width: 40%;
 }
 
 .attribution {
@@ -98,25 +103,29 @@ body {
 }
 
 
-
 @media screen and (max-width: 786px) {
-  #getData {
-    bottom: 38%;
-    left: 46%;
-  }
+
   #results {
     font-size: 1.5rem;
   }
 }
 
 @media screen and (max-width: 375px) {
-
+  .container {
+    width: 90%;
+  }
   #results {
     font-size: 1.2rem;
   }
+
+  .advice-card {
+    width: 350px;
+    height: 350px;
+  }
+
   #getData {
-    bottom: 30%;
-    left: 42%;
+    width: 80px;
+    height: 80px;
   }
 
   .attribution p {
