@@ -1,0 +1,122 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Manrope', sans-serif;
+    background-color: hsl(218, 23%, 16%);
+    text-align: center;
+    font-size: 28px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    place-items: center;
+    text-align: center;
+    height: auto;
+    width: 80%;
+    max-width: 500px;
+    min-width: 300px;
+    margin: 4rem auto;
+    position: relative;
+}
+
+.advice-card {
+    background-color: hsl(217, 19%, 24%);
+    border-radius: 10px;
+    padding: 40px;
+    width: 450px;
+    height: 300px;
+    width: 100%;
+    color: hsl(193, 38%, 86%);
+}
+
+#advice-id {
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: hsl(150, 100%, 66%); 
+}
+
+#results {
+    font-size: 28px;
+    margin: 20px 0;
+    font-weight: 800;
+    color: hsl(193, 38%, 86%);
+}
+
+.line img {
+  width: 80%;
+  margin: 1rem;  
+}
+
+#getData {
+    background-color: hsl(150, 100%, 66%);
+    border: none;
+    border-radius: 50%;
+    padding: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    position: absolute;
+    bottom: 50%;
+    left: 48%;
+    z-index: 1;
+    transform: translateY(50%);
+    transition: all 0.2s;
+}
+
+#getData:hover {
+    box-shadow: 0px 5px 36px 2px hsl(150, 100%, 66%); ;
+}
+
+#getData img {
+    width: 100%;
+}
+
+.attribution {
+  margin-top: 30vh;
+  color: hsl(193, 38%, 86%);
+  & p {
+    font-size: 0.8rem;
+  }
+  & a {
+    color: hsl(150, 100%, 66%);
+    & a:hover {
+      color: hsl(193, 38%, 86%);
+    }
+
+  }
+
+}
+
+
+
+@media screen and (max-width: 786px) {
+  #getData {
+    bottom: 50%;
+    left: 46%;
+  }
+}
+
+@media screen and (max-width: 375px) {
+
+  #results {
+    font-size: 1.2rem;
+  }
+  #getData {
+    bottom: 32%;
+    left: 42%;
+  }
+
+  .attribution p {
+    font-size: 0.7rem;
+  }
+}
