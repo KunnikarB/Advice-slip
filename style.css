@@ -40,8 +40,8 @@ body {
 }
 
 #advice-id {
-    font-size: 18px;
-    font-weight: 400;
+    font-size: 16px;
+    font-weight: 800;
     letter-spacing: 5px;
     text-transform: uppercase;
     color: hsl(150, 100%, 66%); 
@@ -83,7 +83,7 @@ body {
 }
 
 #getData img {
-    width: 30%;
+    width: 40%;
 }
 
 .attribution {
