@@ -17,13 +17,15 @@ Users should be able to:
 
 ## Desktop
 
-![Screenshot 2025-01-31 at 16 06 29](https://github.com/user-attachments/assets/2470c5aa-7e80-4233-bda9-51545b936f17)
+<img width="1326" alt="Screenshot 2025-02-01 at 16 45 18" src="https://github.com/user-attachments/assets/ebd73c3b-fa0a-4af9-8b96-941995f79dad" />
 
 
 
 ## Mobile
-  
-![Screenshot 2025-01-31 at 16 08 52](https://github.com/user-attachments/assets/f0e5b5ea-e0b7-4e0f-a5ce-4c166a2596fc)
+
+  <img width="318" alt="Screenshot 2025-02-01 at 16 43 38" src="https://github.com/user-attachments/assets/5884d0fc-0aab-43f8-b0cd-3b9dad8c11e4" />
+
+
 </div>
 
 ### Links
