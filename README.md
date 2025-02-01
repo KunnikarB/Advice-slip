@@ -13,7 +13,18 @@ Users should be able to:
 
 ### Screenshot
 
+<div align=center>
 
+## Desktop
+
+![Screenshot 2025-01-31 at 16 06 29](https://github.com/user-attachments/assets/2470c5aa-7e80-4233-bda9-51545b936f17)
+
+
+
+## Mobile
+  
+![Screenshot 2025-01-31 at 16 08 52](https://github.com/user-attachments/assets/f0e5b5ea-e0b7-4e0f-a5ce-4c166a2596fc)
+</div>
 
 ### Links
 
